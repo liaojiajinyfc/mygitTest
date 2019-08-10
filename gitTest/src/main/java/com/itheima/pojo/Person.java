@@ -44,4 +44,14 @@ public class Person {
     public void setD(int d) {
         this.d = d;
     }
+
+    @Override
+    public String toString() {
+        return "Person{" +
+                "a=" + a +
+                ", b=" + b +
+                ", c=" + c +
+                ", d=" + d +
+                '}';
+    }
 }
