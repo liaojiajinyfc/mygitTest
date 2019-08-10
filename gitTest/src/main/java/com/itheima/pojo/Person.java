@@ -44,4 +44,7 @@ public class Person {
     public void setD(int d) {
         this.d = d;
     }
+
+    public Person() {
+    }
 }
