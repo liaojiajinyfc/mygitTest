@@ -54,4 +54,7 @@ public class Person {
                 ", d=" + d +
                 '}';
     }
+    public void hello(){
+        System.out.println("你好");
+    }
 }
