@@ -60,4 +60,8 @@ public class Person {
     public void say(){
         System.out.println("你好，最近在忙什么");
     }
+
+    public void show(){
+        System.out.println("工作可好");
+    }
 }
