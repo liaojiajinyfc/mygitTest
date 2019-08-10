@@ -47,4 +47,7 @@ public class Person {
 
     public Person() {
     }
+    public void say(){
+        System.out.println("你好，最近在忙什么");
+    }
 }
