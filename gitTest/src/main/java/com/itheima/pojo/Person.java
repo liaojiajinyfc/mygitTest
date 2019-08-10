@@ -45,7 +45,17 @@ public class Person {
         this.d = d;
     }
 
-    public Person() {
+    @Override
+    public String toString() {
+        return "Person{" +
+                "a=" + a +
+                ", b=" + b +
+                ", c=" + c +
+                ", d=" + d +
+                '}';
+    }
+    public void hello(){
+        System.out.println("你好");
     }
     public void say(){
         System.out.println("你好，最近在忙什么");
